@@ -25,7 +25,8 @@ Une appli faite par un apprenant français du chinois, pour les apprenants fran�
 5. Des quiz "texte à trous" personalisés : le contenu des phrases s'adapte à ton niveau de HSK et tes centres d'intérêts
 
 ## Télécharge l'APK dès maintenant!  
-La version beta est désormais disponible pour ANDROID, télécharge le fichier APK dès maintenant ! 
+La version beta est désormais disponible pour ANDROID, télécharge le fichier APK dès maintenant ici : 
+https://drive.google.com/drive/folders/1VY96vWCfTJWoPuS5fKYbtDBNpCZumFqB?usp=sharing
 
 ## Politique de confidentialité 
 La politique de confidentialité est à retrouver ici :
