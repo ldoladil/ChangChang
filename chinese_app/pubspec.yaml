@@ -1,0 +1,49 @@
+name: chinese_app
+description: "Apprendre le chinois avec votre propre vocabulaire"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:  # ✅ AJOUTÉ ICI
+    sdk: flutter
+  google_fonts: ^6.2.1  # Police chinoise Noto Sans SC (sans gestion manuelle .otf)
+  hive_flutter: ^1.1.0  # ✅ PERSISTANCE LOCALE
+  camera: ^0.10.5                    # ✅ Caméra
+  # Pour la caméra et la galerie
+  image_picker: ^1.0.7 
+  # Le moteur OCR de Google (Supporte le chinois)
+  google_mlkit_text_recognition: ^0.14.0  
+  path_provider: ^2.1.3    # ✅ OBLIGATOIRE pour getTemporaryDirectory
+  permission_handler: ^11.3.1        # ✅ Gestion permissions
+  google_mlkit_translation: ^0.12.0
+  lpinyin: ^2.0.3
+  http: ^1.2.0
+  shared_preferences: ^2.5.4
+  flutter_dotenv: ^6.0.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1  # ✅ GÉNÉRATEUR D'ADAPTATEURS
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/horse.jpg
+    - .env
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png" # ⚠️ Remplace par le bon chemin vers ton image
+  min_sdk_android: 21 # Optionnel, mais recommandé
+    
